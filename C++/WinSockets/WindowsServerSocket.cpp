@@ -1,0 +1,100 @@
+#include "Sockets.h"
+#include <Windows.h>
+#include <winsock2.h>
+#include <iostream>
+#include <string>
+#include <boost/thread.hpp>
+
+WinServer::WinServer() {
+	setPort(12345);
+	setLogStream(&std::cout);
+}
+
+WinServer::WinServer(unsigned short port) {
+	setPort(port);
+	setLogStream(&std::cout);
+}
+
+WinServer::WinServer(unsigned short port, std::ostream log) {
+	setPort(port);
+	setLogStream(&log);
+}
+
+unsigned short WinServer::getPort() {
+	return port;
+}
+
+std::ostream* WinServer::getLogStream() {
+	return log;
+}
+
+void WinServer::setPort(unsigned short int port) {
+	this->port = port;
+}
+
+void WinServer::setLogStream(std::ostream* log) {
+	this->log = log;
+}
+
+void WinServer::start() {
+	WSADATA wsadata;
+	int error = WSAStartup(MAKEWORD(2, 0), &wsadata);
+	if (error != 0) {
+		*log << "Failed to start WSA. Error code: " << error << std::endl;
+		return;
+	} else {
+		*log << "Successfully started WSA." << std::endl;
+	}
+	sock = socket(AF_INET, SOCK_STREAM, 0);
+	if (sock == INVALID_SOCKET) {
+		*log << "Failed to create socket. Error code: " << WSAGetLastError()
+				<< std::endl;
+		return;
+	} else {
+		*log << "Successfully created socket." << std::endl;
+	}
+
+	SOCKADDR_IN addr;
+	memset(&addr, 0, sizeof(SOCKADDR_IN));
+	addr.sin_family = AF_INET;
+	addr.sin_port = htons(port);
+	addr.sin_addr.s_addr = ADDR_ANY;
+	error = bind(sock, (SOCKADDR*) &addr, sizeof(SOCKADDR));
+	if (error == SOCKET_ERROR) {
+		*log << "Failed to bind server socket. Error code: " << error
+				<< std::endl;
+		return;
+	} else {
+		*log << "Successfully bound server socket." << std::endl;
+	}
+	error = listen(sock, 10);
+	if (error == SOCKET_ERROR) {
+		*log << "Error occurred while listening. Error code: " << error
+				<< std::endl;
+		return;
+	} else {
+		*log << "Server socket is now listening." << std::endl;
+	}
+
+	clientSocket = accept(sock, 0, 0);
+	if (clientSocket == INVALID_SOCKET) {
+		*log << "Failed to accept client socket. Error code: "
+				<< WSAGetLastError() << std::endl;
+	} else {
+		*log << "Successfully accepted client socket." << std::endl;
+	}
+}
+
+void WinServer::readFromStream(char* buffer, int bufferLength) {
+	recv(clientSocket, buffer, bufferLength, 0);
+}
+
+void WinServer::writeToStream(const char* buffer, int bufferLength) {
+	send(clientSocket, buffer, bufferLength, 0);
+}
+
+WinServer::~WinServer() {
+	closesocket(sock);
+	delete log;
+	delete serv
+}
