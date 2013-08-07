@@ -3,7 +3,6 @@
 #include <winsock2.h>
 #include <iostream>
 #include <string>
-#include <boost/thread.hpp>
 
 WinServer::WinServer() {
 	setPort(12345);
@@ -75,7 +74,7 @@ void WinServer::start() {
 	} else {
 		*log << "Server socket is now listening." << std::endl;
 	}
-
+	*log << "Accepting client socket..." << std::endl;
 	clientSocket = accept(sock, 0, 0);
 	if (clientSocket == INVALID_SOCKET) {
 		*log << "Failed to accept client socket. Error code: "
@@ -96,5 +95,4 @@ void WinServer::writeToStream(const char* buffer, int bufferLength) {
 WinServer::~WinServer() {
 	closesocket(sock);
 	delete log;
-	delete serv
 }

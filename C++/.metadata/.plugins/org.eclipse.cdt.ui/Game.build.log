@@ -1,0 +1,6 @@
+17:45:04 **** Incremental Build of configuration Debug for project Game ****
+Info: Internal Builder is used for build
+g++ "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom\\Debug" "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets\\bin" -o Game.exe KeyboardListener.o Go.o GameField.o Field.o -lopengl32 -lglu32 -lfreeglut -lfreschglushroom -lboost_thread -lboost_system -lsockets 
+
+17:45:04 Build Finished (took 801ms)
+

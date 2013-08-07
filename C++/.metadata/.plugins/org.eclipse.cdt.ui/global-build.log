@@ -1,0 +1,40 @@
+17:33:53 **** Build of configuration Default for project WinSockets ****
+make all 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" WindowsClient.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" WindowsServerSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" WindowsSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -shared -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WinSockets.dll" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" -lws2_32 -lboost_thread -lboost_system 
+17:40:09 **** Build of configuration Default for project WinSockets ****
+make all 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" WindowsClient.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" WindowsServerSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" WindowsSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -shared -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WinSockets.dll" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" -lws2_32 -lboost_thread -lboost_system 
+17:40:27 **** Rebuild of configuration Debug for project Game ****
+Info: Internal Builder is used for build
+g++ "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom" "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets" -O0 -g3 -Wall -c -fmessage-length=0 -o GameField.o "..\\GameField.cpp" 
+g++ "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom" "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets" -O0 -g3 -Wall -c -fmessage-length=0 -o Go.o "..\\Go.cpp" 
+..\Go.cpp: In function 'WinSocket* clientOrServer()':
+..\Go.cpp:106:55: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   WinClient* client = new WinClient("127.0.0.1", 10000);
+                                                       ^
+g++ "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom" "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets" -O0 -g3 -Wall -c -fmessage-length=0 -o KeyboardListener.o "..\\KeyboardListener.cpp" 
+g++ "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom" "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets" -O0 -g3 -Wall -c -fmessage-length=0 -o Field.o "..\\Field.cpp" 
+g++ "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom\\Debug" "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets\\bin" -o Game.exe KeyboardListener.o Go.o GameField.o Field.o -lopengl32 -lglu32 -lfreeglut -lfreschglushroom -lwinsockets -lboost_thread -lboost_system 
+17:41:25 **** Incremental Build of configuration Debug for project Game ****
+Info: Internal Builder is used for build
+g++ "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom" "-IC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets" -O0 -g3 -Wall -c -fmessage-length=0 -o Go.o "..\\Go.cpp" 
+..\Go.cpp: In function 'WinSocket* clientOrServer()':
+..\Go.cpp:106:55: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+   WinClient* client = new WinClient("127.0.0.1", 50000);
+                                                       ^
+g++ "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom\\Debug" "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets\\bin" -o Game.exe KeyboardListener.o Go.o GameField.o Field.o -lopengl32 -lglu32 -lfreeglut -lfreschglushroom -lwinsockets -lboost_thread -lboost_system 
+17:44:09 **** Incremental Build of configuration Default for project WinSockets ****
+make all 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" WindowsClient.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" WindowsServerSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" WindowsSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -shared -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\sockets.dll" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" -lws2_32 -lboost_thread -lboost_system 
+17:45:04 **** Incremental Build of configuration Debug for project Game ****
+Info: Internal Builder is used for build
+g++ "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\FreschGLushroom\\Debug" "-LC:\\FreschMushroom\\GitHub\\Utils\\C++\\WinSockets\\bin" -o Game.exe KeyboardListener.o Go.o GameField.o Field.o -lopengl32 -lglu32 -lfreeglut -lfreschglushroom -lboost_thread -lboost_system -lsockets 

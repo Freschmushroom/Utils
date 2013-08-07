@@ -5,7 +5,6 @@
 #include <winsock2.h>
 #include <iostream>
 #include <list>
-#include <boost/thread.hpp>
 
 class WinSocket {
 protected:
@@ -45,7 +44,6 @@ public:
 
 class WinServer: public WinSocket {
 	SOCKET clientSocket;
-	boost::thread* server_thread;
 public:
 	WinServer();
 	WinServer(unsigned short port);

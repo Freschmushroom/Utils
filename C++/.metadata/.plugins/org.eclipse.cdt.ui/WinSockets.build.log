@@ -1,0 +1,9 @@
+17:44:09 **** Incremental Build of configuration Default for project WinSockets ****
+make all 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" WindowsClient.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" WindowsServerSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -Wall -c -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" WindowsSocket.cpp -lws2_32 -lboost_thread -lboost_system 
+g++ -shared -o "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\sockets.dll" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsClient.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsServerSocket.o" "C:\FreschMushroom\GitHub\Utils\C++\WinSockets\bin\WindowsSocket.o" -lws2_32 -lboost_thread -lboost_system 
+
+17:44:10 Build Finished (took 1s.725ms)
+

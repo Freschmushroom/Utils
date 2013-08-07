@@ -1,0 +1,1068 @@
+!SESSION 2013-08-07 17:31:18.290 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_AT
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-08-07 17:31:58.872
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-08-07 17:31:58.872
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\michi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2013-08-07 17:33:08.537
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.537
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@42f2d54d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@42f2d54d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.537
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5491d491,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5491d491,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.537
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@321aa6f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@321aa6f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@73c7bbd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@73c7bbd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3dfc5507,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3dfc5507,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1325e5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1325e5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11d0eaa1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11d0eaa1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2adbf92a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2adbf92a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:33:08.538
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4fc34a61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4fc34a61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-07 17:33:08.834
+!MESSAGE Indexed 'FreschGLushroom' (2 sources, 126 headers) in 10,32 sec: 25.672 declarations; 38.005 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:33:40.861
+!MESSAGE Error while parsing /WinSockets/WindowsClient.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalBinding.instantiate(EvalBinding.java:321)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateValue(CPPTemplates.java:931)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalFixed.instantiate(EvalFixed.java:165)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateArgument(CPPTemplates.java:1162)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateInstance(TemplateArgumentDeduction.java:912)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromType(TemplateArgumentDeduction.java:850)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArgument(TemplateArgumentDeduction.java:745)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArguments(TemplateArgumentDeduction.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.selectSpecialization(CPPTemplates.java:2152)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:191)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveDeferredClassInstance(CPPTemplates.java:2639)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2554)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2574)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveUnknownName(CPPSemantics.java:3716)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2596)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveBinding(CPPSemantics.java:269)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolvePreBinding(CPPASTNameBase.java:76)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName.resolvePreBinding(CPPASTQualifiedName.java:87)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.getBaseType(CPPVisitor.java:2148)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:2121)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:1960)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:805)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:89)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3093)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3075)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:308)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:105)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarationStatement.accept(CPPASTDeclarationStatement.java:73)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompoundStatement.accept(CPPASTCompoundStatement.java:85)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition.accept(CPPASTFunctionDefinition.java:198)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompositeTypeSpecifier.accept(CPPASTCompositeTypeSpecifier.java:193)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:102)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTTemplateDeclaration.accept(CPPASTTemplateDeclaration.java:127)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:251)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:445)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:225)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1170)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1007)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:828)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:33:49.395
+!MESSAGE Error while parsing /WinSockets/Sockets.h.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalBinding.instantiate(EvalBinding.java:321)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateValue(CPPTemplates.java:931)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalFixed.instantiate(EvalFixed.java:165)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateArgument(CPPTemplates.java:1162)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateInstance(TemplateArgumentDeduction.java:912)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromType(TemplateArgumentDeduction.java:850)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArgument(TemplateArgumentDeduction.java:745)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArguments(TemplateArgumentDeduction.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.selectSpecialization(CPPTemplates.java:2152)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:191)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveDeferredClassInstance(CPPTemplates.java:2639)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2554)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2574)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveUnknownName(CPPSemantics.java:3716)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2596)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveBinding(CPPSemantics.java:269)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolvePreBinding(CPPASTNameBase.java:76)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName.resolvePreBinding(CPPASTQualifiedName.java:87)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.getBaseType(CPPVisitor.java:2148)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:2121)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:1960)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:805)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:89)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3093)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3075)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:308)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:105)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarationStatement.accept(CPPASTDeclarationStatement.java:73)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompoundStatement.accept(CPPASTCompoundStatement.java:85)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition.accept(CPPASTFunctionDefinition.java:198)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompositeTypeSpecifier.accept(CPPASTCompositeTypeSpecifier.java:193)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:102)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTTemplateDeclaration.accept(CPPASTTemplateDeclaration.java:127)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:251)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:445)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:225)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1170)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1007)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:862)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:33:57.481
+!MESSAGE Error while parsing /WinSockets/WindowsClient.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalBinding.instantiate(EvalBinding.java:321)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateValue(CPPTemplates.java:931)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalFixed.instantiate(EvalFixed.java:165)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateArgument(CPPTemplates.java:1162)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateInstance(TemplateArgumentDeduction.java:912)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromType(TemplateArgumentDeduction.java:850)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArgument(TemplateArgumentDeduction.java:745)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArguments(TemplateArgumentDeduction.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.selectSpecialization(CPPTemplates.java:2152)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:191)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveDeferredClassInstance(CPPTemplates.java:2639)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2554)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2574)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveUnknownName(CPPSemantics.java:3716)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2596)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveBinding(CPPSemantics.java:269)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolvePreBinding(CPPASTNameBase.java:76)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName.resolvePreBinding(CPPASTQualifiedName.java:87)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.getBaseType(CPPVisitor.java:2148)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:2121)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:1960)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:805)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:89)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3093)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3075)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:308)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:105)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarationStatement.accept(CPPASTDeclarationStatement.java:73)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompoundStatement.accept(CPPASTCompoundStatement.java:85)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition.accept(CPPASTFunctionDefinition.java:198)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompositeTypeSpecifier.accept(CPPASTCompositeTypeSpecifier.java:193)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:102)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTTemplateDeclaration.accept(CPPASTTemplateDeclaration.java:127)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:251)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:445)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:225)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1170)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1007)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:828)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-07 17:34:02.713
+!MESSAGE Indexed 'WinSockets' (3 sources, 154 headers) in 53,88 sec: 38.049 declarations; 55.373 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:34:11.304
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalBinding.instantiate(EvalBinding.java:321)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateValue(CPPTemplates.java:931)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalFixed.instantiate(EvalFixed.java:165)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateArgument(CPPTemplates.java:1162)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateInstance(TemplateArgumentDeduction.java:912)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromType(TemplateArgumentDeduction.java:850)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArgument(TemplateArgumentDeduction.java:745)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArguments(TemplateArgumentDeduction.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.selectSpecialization(CPPTemplates.java:2152)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:191)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveDeferredClassInstance(CPPTemplates.java:2639)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2554)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2574)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveUnknownName(CPPSemantics.java:3716)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2596)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveBinding(CPPSemantics.java:269)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolvePreBinding(CPPASTNameBase.java:76)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName.resolvePreBinding(CPPASTQualifiedName.java:87)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.getBaseType(CPPVisitor.java:2148)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:2121)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:1960)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:805)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:89)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3093)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3075)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:308)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:105)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarationStatement.accept(CPPASTDeclarationStatement.java:73)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompoundStatement.accept(CPPASTCompoundStatement.java:85)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition.accept(CPPASTFunctionDefinition.java:198)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompositeTypeSpecifier.accept(CPPASTCompositeTypeSpecifier.java:193)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:102)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTTemplateDeclaration.accept(CPPASTTemplateDeclaration.java:127)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:251)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:445)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:225)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1170)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1007)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:828)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:34:24.325
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalBinding.instantiate(EvalBinding.java:321)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateValue(CPPTemplates.java:931)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.EvalFixed.instantiate(EvalFixed.java:165)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateArgument(CPPTemplates.java:1162)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateInstance(TemplateArgumentDeduction.java:912)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromType(TemplateArgumentDeduction.java:850)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArgument(TemplateArgumentDeduction.java:745)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.TemplateArgumentDeduction.fromTemplateArguments(TemplateArgumentDeduction.java:633)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.selectSpecialization(CPPTemplates.java:2152)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiate(CPPTemplates.java:191)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveDeferredClassInstance(CPPTemplates.java:2639)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2554)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2574)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveUnknownName(CPPSemantics.java:3716)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknownMember(CPPTemplates.java:2596)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.resolveUnknown(CPPTemplates.java:2557)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.instantiateType(CPPTemplates.java:1236)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPTemplates.createSpecialization(CPPTemplates.java:852)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPClassSpecialization.specializeMember(CPPClassSpecialization.java:181)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.AbstractCPPClassSpecializationScope.getBindings(AbstractCPPClassSpecializationScope.java:116)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.getBindingsFromScope(CPPSemantics.java:1203)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.lookup(CPPSemantics.java:951)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.resolveBinding(CPPSemantics.java:269)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:265)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolvePreBinding(CPPASTNameBase.java:76)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTQualifiedName.resolvePreBinding(CPPASTQualifiedName.java:87)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.getBaseType(CPPVisitor.java:2148)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:2121)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createType(CPPVisitor.java:1960)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:805)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPVisitor.createBinding(CPPVisitor.java:293)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTName.createIntermediateBinding(CPPASTName.java:65)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNameBase.resolveBinding(CPPASTNameBase.java:89)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3093)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.semantics.CPPSemantics.findImplicitlyCalledConstructor(CPPSemantics.java:3075)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.getImplicitNames(CPPASTDeclarator.java:308)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarator.accept(CPPASTDeclarator.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:105)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTDeclarationStatement.accept(CPPASTDeclarationStatement.java:73)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompoundStatement.accept(CPPASTCompoundStatement.java:85)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition.accept(CPPASTFunctionDefinition.java:198)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTCompositeTypeSpecifier.accept(CPPASTCompositeTypeSpecifier.java:193)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration.accept(CPPASTSimpleDeclaration.java:102)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTTemplateDeclaration.accept(CPPASTTemplateDeclaration.java:127)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTNamespaceDefinition.accept(CPPASTNamespaceDefinition.java:139)
+	at org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit.accept(ASTTranslationUnit.java:251)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.extractSymbols(PDOMWriter.java:445)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:225)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1170)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1007)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:862)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:36:10.433
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getMaskedException(AbstractIndexerTask.java:1090)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.swallowError(AbstractIndexerTask.java:1079)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1026)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:828)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:99)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.tokenpaste(MacroExpander.java:875)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.replaceArgs(MacroExpander.java:680)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandOne(MacroExpander.java:313)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandAll(MacroExpander.java:398)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expand(MacroExpander.java:187)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1918)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:890)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.consume(AbstractGNUSourceCodeParser.java:339)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.haveTemplateArguments(GNUCPPSourceParser.java:412)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:298)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2915)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.typeId(GNUCPPSourceParser.java:3607)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateArgument(GNUCPPSourceParser.java:613)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateArgumentList(GNUCPPSourceParser.java:595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.addTemplateArguments(GNUCPPSourceParser.java:365)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:311)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2896)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+Root exception:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:99)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.tokenpaste(MacroExpander.java:875)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.replaceArgs(MacroExpander.java:680)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandOne(MacroExpander.java:313)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandAll(MacroExpander.java:398)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expand(MacroExpander.java:187)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1918)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:890)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.consume(AbstractGNUSourceCodeParser.java:339)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.haveTemplateArguments(GNUCPPSourceParser.java:412)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:298)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2915)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.typeId(GNUCPPSourceParser.java:3607)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateArgument(GNUCPPSourceParser.java:613)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateArgumentList(GNUCPPSourceParser.java:595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.addTemplateArguments(GNUCPPSourceParser.java:365)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:311)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2896)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:37:16.801
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getMaskedException(AbstractIndexerTask.java:1090)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.swallowError(AbstractIndexerTask.java:1079)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1026)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:862)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:87)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.eclipse.cdt.internal.core.parser.scanner.LocationMap.encounterImplicitMacroExpansion(LocationMap.java:151)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandAll(MacroExpander.java:392)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expand(MacroExpander.java:187)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1918)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:890)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.consume(AbstractGNUSourceCodeParser.java:339)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.haveTemplateArguments(GNUCPPSourceParser.java:412)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:298)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2896)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.classSpecifier(GNUCPPSourceParser.java:4176)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2928)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateDeclaration(GNUCPPSourceParser.java:2063)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2247)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.classSpecifier(GNUCPPSourceParser.java:4176)
+Root exception:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.eclipse.cdt.internal.core.parser.scanner.LocationMap.encounterImplicitMacroExpansion(LocationMap.java:151)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expandAll(MacroExpander.java:392)
+	at org.eclipse.cdt.internal.core.parser.scanner.MacroExpander.expand(MacroExpander.java:187)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.expandMacro(CPreprocessor.java:1918)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:890)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.consume(AbstractGNUSourceCodeParser.java:339)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.haveTemplateArguments(GNUCPPSourceParser.java:412)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:298)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.ambiguousQualifiedName(GNUCPPSourceParser.java:227)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.qualifiedName(GNUCPPSourceParser.java:219)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2896)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.classSpecifier(GNUCPPSourceParser.java:4176)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2928)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declSpecifierSeq(GNUCPPSourceParser.java:2664)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declSpecifierSequence_initDeclarator(AbstractGNUSourceCodeParser.java:1595)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.simpleDeclaration(GNUCPPSourceParser.java:2384)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2284)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.templateDeclaration(GNUCPPSourceParser.java:2063)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2247)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.classSpecifier(GNUCPPSourceParser.java:4176)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-07 17:37:16.805
+!MESSAGE Indexed 'Game' (4 sources, 91 headers) in 194,09 sec: 10.342 declarations; 17.667 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0,01 %)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:37:25.766
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getMaskedException(AbstractIndexerTask.java:1090)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.swallowError(AbstractIndexerTask.java:1079)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1026)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:828)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.nio.HeapCharBuffer.<init>(Unknown Source)
+	at java.nio.CharBuffer.allocate(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.nextChunk(FileCharArray.java:134)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.createChunk(LazyCharArray.java:145)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.createChunk(FileCharArray.java:110)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkByNumber(LazyCharArray.java:136)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkForOffset(LazyCharArray.java:117)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.isValidOffset(LazyCharArray.java:72)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.isValidOffset(Lexer.java:119)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.nextCharPhase3(Lexer.java:1023)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:114)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1519)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1248)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:879)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:358)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1319)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1292)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1287)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:653)
+Root exception:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.nio.HeapCharBuffer.<init>(Unknown Source)
+	at java.nio.CharBuffer.allocate(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.nextChunk(FileCharArray.java:134)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.createChunk(LazyCharArray.java:145)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.createChunk(FileCharArray.java:110)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkByNumber(LazyCharArray.java:136)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkForOffset(LazyCharArray.java:117)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.isValidOffset(LazyCharArray.java:72)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.isValidOffset(Lexer.java:119)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.nextCharPhase3(Lexer.java:1023)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:114)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1519)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1248)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:879)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:358)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1319)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1292)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1287)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:653)
+
+!ENTRY org.eclipse.cdt.core 4 0 2013-08-07 17:37:32.609
+!MESSAGE Error while parsing /Game/Go.cpp.
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getMaskedException(AbstractIndexerTask.java:1090)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.swallowError(AbstractIndexerTask.java:1079)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1026)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:862)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:508)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:139)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.nio.HeapCharBuffer.<init>(Unknown Source)
+	at java.nio.CharBuffer.allocate(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.nextChunk(FileCharArray.java:134)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.createChunk(LazyCharArray.java:145)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.createChunk(FileCharArray.java:110)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkByNumber(LazyCharArray.java:136)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkForOffset(LazyCharArray.java:117)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.isValidOffset(LazyCharArray.java:72)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.isValidOffset(Lexer.java:119)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.nextCharPhase3(Lexer.java:1023)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:114)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1519)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1248)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:879)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:358)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1319)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1292)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1287)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:653)
+Root exception:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.nio.HeapCharBuffer.<init>(Unknown Source)
+	at java.nio.CharBuffer.allocate(Unknown Source)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.nextChunk(FileCharArray.java:134)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.createChunk(LazyCharArray.java:145)
+	at org.eclipse.cdt.internal.core.parser.scanner.FileCharArray.createChunk(FileCharArray.java:110)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkByNumber(LazyCharArray.java:136)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.getChunkForOffset(LazyCharArray.java:117)
+	at org.eclipse.cdt.internal.core.parser.scanner.LazyCharArray.isValidOffset(LazyCharArray.java:72)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.isValidOffset(Lexer.java:119)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.nextCharPhase3(Lexer.java:1023)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:114)
+	at org.eclipse.cdt.internal.core.parser.scanner.Lexer.<init>(Lexer.java:103)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1519)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1248)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:879)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:603)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:700)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:273)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:297)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:358)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1319)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationListInBraces(AbstractGNUSourceCodeParser.java:1299)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.linkageSpecification(GNUCPPSourceParser.java:1989)
+	at org.eclipse.cdt.internal.core.dom.parser.cpp.GNUCPPSourceParser.declaration(GNUCPPSourceParser.java:2250)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1351)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1292)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1287)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:653)
+!SESSION 2013-08-07 17:37:49.895 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_AT
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-07 17:37:53.057
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-08-07 17:37:56.952
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-08-07 17:37:56.953
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\michi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b42ed30,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b42ed30,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@46e1f84b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@46e1f84b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d742848,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d742848,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@35009e13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@35009e13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3b8a0c94,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3b8a0c94,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@643fe715,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@643fe715,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f5c471e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f5c471e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@634112a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@634112a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-08-07 17:39:26.343
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@452fc4d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@452fc4d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)

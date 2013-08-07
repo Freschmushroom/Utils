@@ -12,7 +12,7 @@ WindowsSocket.o: WindowsSocket.cpp Sockets.h
 	g++ -Wall -c -o "$(OUT_FOLDER)\WindowsSocket.o" WindowsSocket.cpp $(INCLUDES) $(LIB_PATHS)
 
 WinSockets.dll: WindowsClient.o WindowsServerSocket.o WindowsSocket.o
-	g++ -shared -o "$(OUT_FOLDER)\WinSockets.dll" "$(OUT_FOLDER)\WindowsClient.o" "$(OUT_FOLDER)\WindowsServerSocket.o" "$(OUT_FOLDER)\WindowsSocket.o" $(INCLUDES) $(LIB_PATHS)
+	g++ -shared -o "$(OUT_FOLDER)\sockets.dll" "$(OUT_FOLDER)\WindowsClient.o" "$(OUT_FOLDER)\WindowsServerSocket.o" "$(OUT_FOLDER)\WindowsSocket.o" $(INCLUDES) $(LIB_PATHS)
 	
 
 clean:

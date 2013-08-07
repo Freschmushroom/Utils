@@ -97,13 +97,13 @@ WinSocket* clientOrServer() {
 	if (s == "black") {
 		player = 1;
 		hasDraw = true;
-		WinServer* server = new WinServer(10000);
+		WinServer* server = new WinServer(50000);
 		server->start();
 		return server;
 	} else {
 		player = 2;
 		hasDraw = false;
-		WinClient* client = new WinClient("127.0.0.1", 10000);
+		WinClient* client = new WinClient("127.0.0.1", 50000);
 		client->start();
 		if (client->isConnected()) {
 			return client;
