@@ -1,4 +1,5 @@
 #include <GL/freeglut.h>
+#include <GL/glu.h>
 #include "InternalGL.h"
 #include "FreschGLushroom.h"
 #include <iostream>

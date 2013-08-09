@@ -6,6 +6,7 @@
 #endif
 #ifdef __linux__
 #include "sockets.h"
+#include <GL/glu.h>
 #endif
 #include <iostream>
 #include <string>
@@ -100,10 +101,6 @@ KeyboardListener keyboardListener;
 ClickListener mouseListener;
 #ifdef _WIN32
 WinSocket* clientOrServer() {
-#endif
-#ifdef __linux__
-UnixSocket* clientOrServer() {
-#endif
 	cout << "Do you play as black or white?" << endl;
 	string s;
 	cin >> s;
@@ -125,6 +122,32 @@ UnixSocket* clientOrServer() {
 		}
 	}
 }
+#endif
+#ifdef __linux__
+UnixSocket* clientOrServer() {
+	cout << "Do you play as black or white?" << endl;
+	string s;
+	cin >> s;
+	if (s == "black") {
+		player = 1;
+		hasDraw = true;
+		UnixServer* server = new UnixServer(50000);
+		server->start();
+		return server;
+	} else {
+		player = 2;
+		hasDraw = false;
+		UnixClient* client = new UnixClient("127.0.0.1", 50000);
+		client->start();
+		if (client->isConnected()) {
+			return client;
+		} else {
+			return 0;
+		}
+	}
+}
+#endif
+	
 
 void disconnect() {
 	char* buffer = new char[1];

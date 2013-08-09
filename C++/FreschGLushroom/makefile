@@ -8,4 +8,8 @@ Input.o:
 	g++ -fPIC -c -o "./bin/Input.o" Input.cpp -lglut
 	
 libFreschGLushroom.so:
-	g++ -shared -o "./bin/libFreschGLushroom.so" "./bin/GL_Main.o" "./bin/Input.o" -lglut
+	g++ -shared -o "./bin/libFreschGLushroom.so" "./bin/GL_Main.o" "./bin/Input.o" -lglut -lGL -lX11 -lGLU
+	
+#Just for testing
+libFreschGLushroom:
+	g++ -o "FreschGLushroom" "./bin/GL_Main.o" "./bin/Input.o" -lglut -lGL -lX11 -lGLU

@@ -80,3 +80,8 @@ void UnixServer::readFromStream(char * buffer, int bufferLength) {
 void UnixServer::writeToStream(const char * buffer, int bufferLength) {
 	write(sock.used_sock, buffer, bufferLength);
 }
+
+UnixServer::~UnixServer() {
+	close(sock.used_sock);
+	delete log;
+}
