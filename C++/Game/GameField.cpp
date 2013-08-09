@@ -1,5 +1,5 @@
 #include "Go.h"
-#include "GL/gl.h"
+#include <GL/gl.h>
 #include <iostream>
 
 using std::cout;

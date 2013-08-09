@@ -1,4 +1,4 @@
-#include "GL/glut.h"
+#include <GL/glut.h>
 #include "InternalGL.h"
 #include "Events.h"
 #include "FreschGLushroom.h"

@@ -2,7 +2,11 @@
 #define FRESCHGLUSHROOM_H_
 
 #include "Events.h"
-#include "GL/glut.h"
+#include <GL/glut.h>
+
+#ifdef __linux__
+#include <X11/Xlib.h>
+#endif
 
 void init(int arc, char** argv);
 void startRenderLoop();
@@ -38,4 +42,17 @@ void apply2DMatrix(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top)
 
 GLuint getSelection();
 
+#ifdef __linux__
+	typedef struct rect_struct {
+		long left;
+		long top;
+		long right;
+		long bottom;
+	} RECT;
+	
+	void ReleaseCursor();
+	void ClipCursor(RECT * rect);
+#endif /* Linux */
+
 #endif
+

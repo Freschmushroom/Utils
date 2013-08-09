@@ -1,7 +1,12 @@
-#include "GL/glut.h"
+#include <GL/glut.h>
 #include "FreschGLushroom.h"
 #include "Go.h"
+#ifdef _WIN32
 #include "Sockets.h"
+#endif
+#ifdef __linux__
+#include "sockets.h"
+#endif
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -15,8 +20,12 @@ using std::string;
 int player = 0;
 bool hasDraw = false;
 bool isRunning = true;
-
+#ifdef _WIN32
 WinSocket* gameSocket;
+#endif
+#ifdef __linux__
+UnixSocket* gameSocket;
+#endif
 GameField gameField(13);
 
 char* lastPacket = 0;
@@ -89,8 +98,12 @@ public:
 
 KeyboardListener keyboardListener;
 ClickListener mouseListener;
-
+#ifdef _WIN32
 WinSocket* clientOrServer() {
+#endif
+#ifdef __linux__
+UnixSocket* clientOrServer() {
+#endif
 	cout << "Do you play as black or white?" << endl;
 	string s;
 	cin >> s;

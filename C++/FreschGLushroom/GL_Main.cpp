@@ -1,4 +1,4 @@
-#include "GL/freeglut.h"
+#include <GL/freeglut.h>
 #include "InternalGL.h"
 #include "FreschGLushroom.h"
 #include <iostream>
@@ -165,3 +165,24 @@ void apply2DMatrix(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top)
 GLuint getSelection() {
 	return selection;
 }
+
+#ifdef __linux__
+	void ReleaseCursor() {
+		Display *display;
+		display = XOpenDisplay(NULL);
+		XUngrabPointer(display, CurrentTime);
+	};
+	
+	void ClipCursor(RECT * rect) {
+		if(rect == NULL) {
+			ReleaseCursor();
+		} else {
+			Display *display;
+			Window window;
+			window = glutGetWindow();
+			display = XOpenDisplay(NULL);
+			XGrabPointer(display, window, True, 0, GrabModeAsync, GrabModeAsync, window, None, CurrentTime);
+		}
+		
+	};
+#endif
